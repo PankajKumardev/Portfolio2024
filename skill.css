@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #161616;
+}
+.container,.containerfluid,.navbar{
+  padding-top: 60px;
+}
+.navbar{
+    background-color: #161616;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    margin-right: 10px;
+    position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+    color: #FFFFFF;
+    list-style: none;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.navbar a:hover {
+    color: #3DCFD3;
+}
+.main h1 {
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+.main span {
+    color: #3DCFD3;
+}
+.list-container {
+  display: flex; 
+  justify-content: space-around;
+ margin: 10px;
+ margin-top: 100px;
+ margin-left: 160px;
+}
+
+.web, .programmer, .OTHER {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px; 
+}
+
+.web ul, .programmer ul, .OTHER ul {
+  list-style: none;
+  margin: 10;
+  padding: 0;
+}
+
+.web h1 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.web span{
+    color: #3DCFD3;
+}
+.web ul li{
+    color: #3DCFD3;
+    margin-left: 10px;
+}
+.web ul li span {
+    color: #FFFFFF;
+}
+.programmer h1{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-top: 25px;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.programmer span{
+  color: #3DCFD3;
+}
+.programmer ul li{
+  color: #3DCFD3;
+  margin-left: 10px;
+}
+.programmer ul li span {
+  color: #FFFFFF;
+}
+.OTHER h1{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-top: 25px;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.OTHER span{
+  color: #3DCFD3;
+}
+.OTHER ul li{
+  color: #3DCFD3;
+  margin-left: 10px;
+}
+.OTHER ul li span {
+  color: #FFFFFF; 
+}
+.container{
+  margin-top: 100px;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #161616;
+  }
+  .card{
+      border-radius: 4px;
+      background: #161616;
+      color: #FFFFFF;
+      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+  }
+  
+  .card:hover{
+       transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    color: #3DCFD3;
+  }
+  .card h3{
+    font-weight: 600;
+  }
+  
+  .card img{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    max-height: 120px;
+  }
+  
+  .card-1{
+    background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+
+  }
+  
+  .card-2{
+     background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  .card-3{
+     background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+        background-repeat: no-repeat;
+      background-position: right;
+      background-size: 80px;
+  }
+  
+  @media(max-width: 990px){
+    .card{
+      margin: 20px;
+    }
+  } 
+.col-md-4 span{
+  color: #FFFFFF;
+}

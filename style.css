@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #070606;
+}
+.sidebar {
+    background-color: #161616;
+    font-family: 'Poppins', sans-serif;
+    width: auto;    
+}
+.sidebar nav{
+   padding: 45px;   
+   height: 10vh;
+   background-color: #161616;
+}
+.sidebar nav a{
+    list-style: none;
+    font-size: 20px;
+    display: block;
+    padding: 33px 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    margin-left: -7px;
+}
+.sidebar nav a:hover {
+    color: #3DCFD3;
+}
+.main{
+    background-color: black;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.containerfluid{
+    display: flex;
+}
+.infocontainer{
+    background-color: #070606;
+    height: 1000px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.pic img{
+    height: 55vh;
+    margin-top: 30px;
+    margin-right: 10px;
+    
+}.info{
+    color: azure;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -1rem;
+    padding-left: 10px;
+    margin-top: -500px;
+    margin-left: 70px;
+}
+.info h3{
+    font-size: 1.6rem;
+    color: #3DCFD3;
+    margin-bottom: 0.5rem;
+}
+.info h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+}
+.info h1 span {
+    color: #3DCFD3;
+}
+.par{
+    line-height: 1.9rem;
+    margin-bottom: 2rem;
+}
